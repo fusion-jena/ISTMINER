@@ -6,7 +6,7 @@ In recent years, the exponential growth of spatiotemporal data has led to an inc
 
 ## Main architecture 
 
-![framework!](fig/framework.pdf)
+![framework!](fig/frame.png)
 
  ISTMINER is a three-tier architecture for spatiotemporal co-occurrence  patterns extraction:
  1.  Stoarge and indexing layer
