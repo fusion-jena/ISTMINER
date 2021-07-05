@@ -7,14 +7,33 @@ In recent years, the exponential growth of spatiotemporal data has led to an inc
 ## Main architecture 
 
 ![framework!](fig/framework.pdf)
+
  ISTMINER is a three-tier architecture for spatiotemporal co-occurrence  patterns extraction:
  1.  Stoarge & indexing layer
     * responsible for performing data preprocessing steps as preparation for data indexing
+    * data cleaning:
+    * feature selection
+    * Spatiotemporal types selection
+    * Indexing
 2.  Core layer 
     * responsible for candidate generation and filtering to extract the spatiotemporal co-occurrence patterns 
     * semantic enrichments    
 3.  interactive features layer
     * containing the features provided by the ISTMINER tool
-    * Multiple manual revisions are done on the extracted keywords list with biodiversity experts involvement 
+     
 
-## Project Structure
+## Tools
+![tool!](fig/tool.png)
+
+## Acknowledgments
+* This work has been partially funded by the Deutsche Forschungsgemeinschaft (DFG) as part of the CRC 1076 [AquaDiva](http://www.aquadiva.uni-jena.de/) 
+
+## Citation
+Please cite the following paper if you used any part of this work.
+
+`@article{istminer,
+      title={BiodivOnto: Towards a Core Ontology for Biodiversity},
+      author={Dina Sharafeldeen, Mohamed Bakli and Alsayed Algergawy and Birgitta K{\"o}nig-Ries},
+      booktitle={CS4Biodiversity, INFORMATIK2021 },
+      year={2021}      
+    }`
